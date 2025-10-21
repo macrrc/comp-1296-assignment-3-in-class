@@ -1,7 +1,18 @@
 """
 Assignment 3 – Text Stats
 """
+def get_unique_word_count(words):
+    ...
 
+def get_longest_word(words):
+    ...
+
+def get_most_common_word(words):
+    ...
+
+def get_letter_frequencies(text):
+    ...
+    
 def main(input_text):
     # Placeholder structure – we’ll fill these in.
     output_lines = [
