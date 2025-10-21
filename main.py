@@ -5,7 +5,7 @@ Assignment 3 – Text Stats
 def main(input_text):
     # Placeholder structure – we’ll fill these in.
     output_lines = [
-      f"input_text: {input_text}",
+      f"INPUT_TEXT: {input_text}",
       f"UNIQUE_WORDS: {None}",
       f"LONGEST_WORD: {None}",
       f"MOST_COMMON_WORD: {None}",
