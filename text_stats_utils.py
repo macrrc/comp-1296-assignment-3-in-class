@@ -19,3 +19,7 @@ def clean_and_tokenize(input_text):
 
 def get_unique_word_count(words):
     return len(set(words))
+
+
+def get_longest_word(words):
+    return max(words, key=len)

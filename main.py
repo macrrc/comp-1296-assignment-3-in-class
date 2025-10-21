@@ -3,12 +3,9 @@ Assignment 3 – Text Stats
 """
 from text_stats_utils import (
   clean_and_tokenize,
-  get_unique_word_count
+  get_unique_word_count,
+  get_longest_word
 )
-  
-
-def get_longest_word(words):
-    ...
 
 def get_most_common_word(words):
     ...
@@ -20,12 +17,13 @@ def main(input_text):
 
     words = clean_and_tokenize(input_text)
     unique_word_count = get_unique_word_count(words)
-    
+    longest_word = get_longest_word(words)
+
     # Placeholder structure – we’ll fill these in.
     output_lines = [
       f"INPUT_TEXT: {input_text}",
       f"UNIQUE_WORDS: {unique_word_count}",
-      f"LONGEST_WORD: {None}",
+      f"LONGEST_WORD: {longest_word}",
       f"MOST_COMMON_WORD: {None}",
       f"MOST_COMMON_WORD_COUNT: {None}",
       "LETTER_FREQUENCIES:", # a..z lines will go here
